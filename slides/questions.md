@@ -1,7 +1,5 @@
 ##  Questions
 
-# Questions ?
-
 |         |                                                       |
 | ------- | ----------------------------------------------------- |
 | Email   | [jparker@isep.fr](jparker@isep.fr)                    |
