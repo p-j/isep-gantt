@@ -7,7 +7,7 @@ Sources:
 - [Gantt Charts - Planning and Scheduling Team Projects [en]](http://www.mindtools.com/pages/article/newPPM_03.htm)
 - [How to make a simple Gantt chart [en]](http://theresearchwhisperer.wordpress.com/2011/09/13/gantt-chart/)
 
-Réalisé avec [reveal.js](https://github.com/hakimel/reveal.js)
+Réalisé avec [reveal.js](https://github.com/hakimel/reveal.js) et [generator-reveal](https://github.com/slara/generator-reveal)
 
 ---
 
@@ -17,11 +17,11 @@ Réalisé avec [reveal.js](https://github.com/hakimel/reveal.js)
    + `N` pour passer au slide suivant
    + `P` pour revenir au précédent.
    + Les fleches directionnelles peuvent également être utilisées, mais n'oubliez pas les slides verticaux !
-+ Juste les sources (avec les notes du présentateur) : [sources](https://github.com/p-j/isep-gantt/blob/master/data/slides.md)
++ Juste les sources (avec les notes du présentateur) : [sources](https://github.com/p-j/isep-gantt/tree/master/slides)
 + Cloner et regarder :
   + `$ cd /chemin/vers/votre/dossier/www`
   + `$ git clone git@github.com:p-j/isep-gantt.git` (clone le dépôt de la présentation)
-  + Naviguez vers [http://127.0.0.1/isep-gantt](http://127.0.0.1/isep-gantt)
+  + Naviguez vers [http://127.0.0.1/isep-gantt/](http://127.0.0.1/isep-gantt/)
 + Pour les curieux, la présentation peut être modifiée et réutilisée à l'aide des outils suivant :
   + [node](http://nodejs.org/)
   + [grunt](http://gruntjs.com/getting-started#installing-the-cli)
@@ -29,8 +29,8 @@ Réalisé avec [reveal.js](https://github.com/hakimel/reveal.js)
   + `$ git clone git@github.com:p-j/isep-gantt.git` (clone le dépôt de la présentation)
   + `$ cd isep-gantt` (aller dans le dossier que l'on vient de créer)
   + `$ npm install` (installer les dépendances)
-  + `$ grunt serve` (assembler les fichiers et lancer le server local pour afficher la présentation)
-  + Puis naviguez vers [http://localhost:8000](http://localhost:8000) pour voir la présentation
+  + `$ grunt` (assembler les fichiers et lancer le server local pour afficher la présentation)
+  + Puis naviguez vers [http://localhost:9000](http://localhost:9000) pour voir la présentation
 
 D'avantage d'information sur comment utiliser [reveal.js](https://github.com/hakimel/reveal.js) sont disponibles sur le dépôt officiel [hakimel/reveal.js](https://github.com/hakimel/reveal.js) (en anglais).
 
